@@ -1,0 +1,34 @@
+.swiper {
+    max-width: 1300px;
+    width: 100%;
+    height: 400px;
+}
+
+.swiper-wrapper{
+    display: flex;
+}
+
+.swiper-slide{
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide img{
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+}
+
+.swiper-slide-next img{
+    transform: scale(1.5);
+    transition: 1s ease;
+}
+
+.swiper-button-prev{
+    
+}   
+
+.swiper-button-prev::after{
+    display: none;
+}
+
